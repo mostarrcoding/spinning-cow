@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Spinning Cow</title>
+<style>
+body{
+	animation: backgroundColorChange 5s infinite;
+}
+@keyframes backgroundColorChange{
+	0%{background-color: #D5D2FD;}
+	50%{background-color: #FAFDD2;}
+	100%{background-color: #D5D2FD;}
+}
+
+img{
+	display: block;
+	width: 40%;
+	margin: auto;
+	position: relative;
+	top: 120px;
+	transition: border-radius 1s;
+}img:hover{
+	border-radius:50%;
+	animation: rotateIMG 6s 1s infinite, imgRadiate3 3s infinite;
+}img:not(:hover){
+	animation: rotateIMG 6s 1s infinite paused, imgRadiate3 3s infinite paused;
+}
+@keyframes rotateIMG{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+@keyframes imgRadiate3{
+0%{box-shadow: 0px 0px 0px white;}
+1%{box-shadow: 0px 0px 100px red;}
+2%{box-shadow: 0px 0px 10px blue;}
+3%{box-shadow: 0px 0px 50px green;}
+4%{box-shadow: 0px 0px 10px gray;}
+5%{box-shadow: 0px 0px 0px white;}
+6%{box-shadow: 0px 0px 100px red;}
+7%{box-shadow: 0px 0px 10px blue;}
+8%{box-shadow: 0px 0px 50px green;}
+9%{box-shadow: 0px 0px 10px gray;}
+10%{box-shadow: 0px 0px 0px white;}
+11%{box-shadow: 0px 0px 100px red;}
+12%{box-shadow: 0px 0px 10px blue;}
+13%{box-shadow: 0px 0px 50px green;}
+14%{box-shadow: 0px 0px 10px gray;}
+15%{box-shadow: 0px 0px 0px white;}
+16%{box-shadow: 0px 0px 100px red;}
+17%{box-shadow: 0px 0px 10px blue;}
+18%{box-shadow: 0px 0px 50px green;}
+19%{box-shadow: 0px 0px 10px gray;}
+20%{box-shadow: 0px 0px 0px white;}
+21%{box-shadow: 0px 0px 100px red;}
+22%{box-shadow: 0px 0px 10px blue;}
+23%{box-shadow: 0px 0px 50px green;}
+24%{box-shadow: 0px 0px 10px gray;}
+25%{box-shadow: 0px 0px 0px white;}
+26%{box-shadow: 0px 0px 100px red;}
+27%{box-shadow: 0px 0px 10px blue;}
+28%{box-shadow: 0px 0px 50px green;}
+29%{box-shadow: 0px 0px 10px gray;}
+30%{box-shadow: 0px 0px 0px white;}
+31%{box-shadow: 0px 0px 100px red;}
+32%{box-shadow: 0px 0px 10px blue;}
+33%{box-shadow: 0px 0px 50px green;}
+34%{box-shadow: 0px 0px 10px gray;}
+35%{box-shadow: 0px 0px 0px white;}
+36%{box-shadow: 0px 0px 100px red;}
+37%{box-shadow: 0px 0px 10px blue;}
+38%{box-shadow: 0px 0px 50px green;}
+39%{box-shadow: 0px 0px 10px gray;}
+40%{box-shadow: 0px 0px 0px white;}
+41%{box-shadow: 0px 0px 100px red;}
+42%{box-shadow: 0px 0px 10px blue;}
+43%{box-shadow: 0px 0px 50px green;}
+44%{box-shadow: 0px 0px 10px gray;}
+45%{box-shadow: 0px 0px 0px white;}
+46%{box-shadow: 0px 0px 100px red;}
+47%{box-shadow: 0px 0px 10px blue;}
+48%{box-shadow: 0px 0px 50px green;}
+49%{box-shadow: 0px 0px 10px gray;}
+50%{box-shadow: 0px 0px 0px white;}
+51%{box-shadow: 0px 0px 100px red;}
+52%{box-shadow: 0px 0px 10px blue;}
+53%{box-shadow: 0px 0px 50px green;}
+54%{box-shadow: 0px 0px 10px gray;}
+55%{box-shadow: 0px 0px 0px white;}
+56%{box-shadow: 0px 0px 100px red;}
+57%{box-shadow: 0px 0px 10px blue;}
+58%{box-shadow: 0px 0px 50px green;}
+59%{box-shadow: 0px 0px 10px gray;}
+60%{box-shadow: 0px 0px 0px white;}
+61%{box-shadow: 0px 0px 100px red;}
+62%{box-shadow: 0px 0px 10px blue;}
+63%{box-shadow: 0px 0px 50px green;}
+64%{box-shadow: 0px 0px 10px gray;}
+65%{box-shadow: 0px 0px 0px white;}
+66%{box-shadow: 0px 0px 100px red;}
+67%{box-shadow: 0px 0px 10px blue;}
+68%{box-shadow: 0px 0px 50px green;}
+69%{box-shadow: 0px 0px 10px gray;}
+70%{box-shadow: 0px 0px 0px white;}
+71%{box-shadow: 0px 0px 100px red;}
+72%{box-shadow: 0px 0px 10px blue;}
+73%{box-shadow: 0px 0px 50px green;}
+74%{box-shadow: 0px 0px 10px gray;}
+75%{box-shadow: 0px 0px 0px white;}
+76%{box-shadow: 0px 0px 100px red;}
+77%{box-shadow: 0px 0px 10px blue;}
+78%{box-shadow: 0px 0px 50px green;}
+79%{box-shadow: 0px 0px 10px gray;}
+80%{box-shadow: 0px 0px 0px white;}
+81%{box-shadow: 0px 0px 100px red;}
+82%{box-shadow: 0px 0px 10px blue;}
+83%{box-shadow: 0px 0px 50px green;}
+84%{box-shadow: 0px 0px 10px gray;}
+85%{box-shadow: 0px 0px 0px white;}
+86%{box-shadow: 0px 0px 100px red;}
+87%{box-shadow: 0px 0px 10px blue;}
+88%{box-shadow: 0px 0px 50px green;}
+89%{box-shadow: 0px 0px 10px gray;}
+90%{box-shadow: 0px 0px 0px white;}
+91%{box-shadow: 0px 0px 100px red;}
+92%{box-shadow: 0px 0px 10px blue;}
+93%{box-shadow: 0px 0px 50px green;}
+94%{box-shadow: 0px 0px 10px gray;}
+95%{box-shadow: 0px 0px 0px white;}
+96%{box-shadow: 0px 0px 100px red;}
+97%{box-shadow: 0px 0px 10px blue;}
+98%{box-shadow: 0px 0px 50px green;}
+99%{box-shadow: 0px 0px 10px gray;}
+100%{box-shadow: 0px 0px 0px white;}
+}
+</style>
+</head>
+<body>
+<a href="https://starrandco.zenfolio.com"><img src="hiCows.jpg"></a>
+</body>
+</html>

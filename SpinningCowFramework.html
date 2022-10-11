@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Spinning Cow</title>
+<style>
+body{
+	animation: backgroundColorChange 5s infinite;
+}
+img{
+	display: block;
+	width: 40%;
+	margin: auto;
+	position: relative;
+	top: 120px;
+	transition: border-radius 1s;
+}img:hover{
+	border-radius:50%;
+	animation: rotateIMG 6s 1s infinite, imgRadiate3 3s infinite;
+}img:not(:hover){
+	animation: rotateIMG 6s 1s infinite paused, imgRadiate3 3s infinite paused;
+}
+@keyframes rotateIMG{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+@keyframes imgRadiate3{
