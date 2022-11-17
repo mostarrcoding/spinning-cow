@@ -1,6 +1,7 @@
 body{
-	animation: backgroundColorChange 5s infinite;
+	/* animation: backgroundColorChange 5s infinite; */
 	font-family: HelveticaNeue Light, Helvetica Regular, Helvetica, sans-serif;
+	background-color: #eeffff;
 	/*border: 1px solid black;*/ /*Not functioning correctly*/
 }
 
@@ -89,8 +90,20 @@ body{
 h1{
 	text-decoration: none;
 	font-weight: bold;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	margin-bottom: 50px;
+}
+
+.bottomTitle{
+	position: fixed;
+	bottom: 0px;
+	left: 30px;
+	border: none;
+	margin-bottom: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 3px;
+	background-color: white;
 }
 
 h2{
@@ -106,7 +119,7 @@ p{
 	border: 1px solid black;
 	padding: 4px;
 	margin: 0 0 5px 0;
-	height: 200px;	
+	height: 200px;
 	overflow: auto;
 	box-shadow: 1px 1px 2px black;
 }
