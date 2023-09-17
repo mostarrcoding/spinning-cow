@@ -4,6 +4,8 @@ body{
 	/*border: 1px solid black;*/ /*Not functioning correctly*/
 }
 
+/*animation code for glowing background on webpage
+*light yellow to light purple and background*/
 @keyframes backgroundColorChange{
 	0%{background-color: #D5D2FD;}
 	50%{background-color: #FAFDD2;}

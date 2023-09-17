@@ -1,0 +1,1 @@
+window.alert("Epilepsy warning: Flashing border w/bright colors around some of the images below.") /*notice of epilepsy warning */
